@@ -35,37 +35,37 @@
 <br/>
 
 ## 📝 목차
-| 번호 |                                     주제                                      |                                             진행도                                              |
-| :--: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: |
-|  01  | [기초 코드 작성 요령](01.%20기초코드%20작성%20요령/기초코드%20작성%20요령.md) | ![100%](https://progress-bar.dev/27/?scale=27&title=progress&width=500&color=babaca&suffix=/27) |
-|  02  |                       [문자열](02.%20문자열/문자열.md)                        | ![100%](https://progress-bar.dev/27/?scale=27&title=progress&width=500&color=babaca&suffix=/27) |
-|  03  |                          [배열](03.%20배열/배열.md)                           |  ![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
-|  04  |              [연결 리스트](04.%20연결%20리스트/연결%20리스트.md)              |  ![100%](https://progress-bar.dev/3/?scale=3&title=progress&width=500&color=babaca&suffix=/3)   |
-|  05  |                          [스택](05.%20스택/스택.md)                           |  ![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
-|  06  |                             [큐](06.%20큐/큐.md)                              |  ![100%](https://progress-bar.dev/3/?scale=3&title=progress&width=500&color=babaca&suffix=/3)   |
-|  07  |                             [덱](07.%20덱/덱.md)                              |  ![100%](https://progress-bar.dev/4/?scale=4&title=progress&width=500&color=babaca&suffix=/4)   |
-|  08  |              [스택의 활용](08.%20스택의%20활용/스택의%20활용.md)              |  ![100%](https://progress-bar.dev/5/?scale=5&title=progress&width=500&color=babaca&suffix=/5)   |
-|  09  |                            [BFS](09.%20BFS/BFS.md)                            | ![100%](https://progress-bar.dev/30/?scale=30&title=progress&width=500&color=babaca&suffix=/30) |
-|  10  |                                DFS (문제집 X)                                 |                                                                                                 |
-|  11  |                          [재귀](11.%20재귀//재귀.md)                          | ![100%](https://progress-bar.dev/10/?scale=10&title=progress&width=500&color=babaca&suffix=/10) |
-|  12  |                    [백트래킹](12.%20백트래킹//백트래킹.md)                    | ![100%](https://progress-bar.dev/20/?scale=20&title=progress&width=500&color=babaca&suffix=/20) |
-|  13  |                 [시뮬레이션](13.%20시뮬레이션/시뮬레이션.md)                  | ![100%](https://progress-bar.dev/37/?scale=61&title=progress&width=500&color=babaca&suffix=/61) |
-|  14  |                        [정렬 I](14.%20정렬1//정렬1.md)                        |  ![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
-|  15  |                       [정렬 II](15.%20정렬2//정렬2.md)                        |  ![100%](https://progress-bar.dev/9/?scale=9&title=progress&width=500&color=babaca&suffix=/9)   |
-|  16  |  [다이나믹 프로그래밍](16.%20다이나믹%20프로그래밍/다이나믹%20프로그래밍.md)  | ![100%](https://progress-bar.dev/44/?scale=44&title=progress&width=500&color=babaca&suffix=/44) |
-|  17  |                       [그리디](17.%20그리디/그리디.md)                        | ![100%](https://progress-bar.dev/17/?scale=17&title=progress&width=500&color=babaca&suffix=/17) |
-|  18  |                          [수학](18.%20수학/수학.md)                           | ![100%](https://progress-bar.dev/37/?scale=39&title=progress&width=500&color=babaca&suffix=/39) |
-|  19  |                    [이분탐색](19.%20이분탐색//이분탐색.md)                    | ![100%](https://progress-bar.dev/20/?scale=21&title=progress&width=500&color=babaca&suffix=/21) |
-|  20  |                [투 포인터](20.%20투%20포인터//투%20포인터.md)                 | ![100%](https://progress-bar.dev/9/?scale=11&title=progress&width=500&color=babaca&suffix=/11)  |
-|  21  |                          [해시](21.%20해시//해시.md)                          | ![100%](https://progress-bar.dev/10/?scale=10&title=progress&width=500&color=babaca&suffix=/10) |
-|  22  |       [이진 검색 트리](22.%20이진%20검색%20트리//이진%20검색%20트리.md)       |  ![100%](https://progress-bar.dev/6/?scale=7&title=progress&width=500&color=babaca&suffix=/7)   |
-|  23  |              [우선순위 큐](23.%20우선순위%20큐//우선순위%20.md)               |  ![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
-|  24  |                       [그래프](24.%20그래프//그래프.md)                       | ![100%](https://progress-bar.dev/13/?scale=13&title=progress&width=500&color=babaca&suffix=/13) |
-|  25  |                          [트리](25.%20트리//트리.md)                          | ![100%](https://progress-bar.dev/13/?scale=13&title=progress&width=500&color=babaca&suffix=/13) |
-|  26  |                [위상 정렬](26.%20위상%20정렬//위상%20정렬.md)                 |  ![100%](https://progress-bar.dev/7/?scale=7&title=progress&width=500&color=babaca&suffix=/7)   |
-|  27  |       [최소 신장 트리](27.%20최소%20신장%20트리//최소%20신장%20트리.md)       |  ![100%](https://progress-bar.dev/9/?scale=9&title=progress&width=500&color=babaca&suffix=/9)   |
-|  28  |    [플로이드 알고리즘](28.%20플로이드%20알고리즘//플로이드%20알고리즘.md)     | ![100%](https://progress-bar.dev/13/?scale=15&title=progress&width=500&color=babaca&suffix=/15) |
-|  29  | [다익스트라 알고리즘](29.%20다익스트라%20알고리즘//다익스트라%20알고리즘.md)  | ![100%](https://progress-bar.dev/9/?scale=14&title=progress&width=500&color=babaca&suffix=/14)  |
-|  30  |                           [KMP](30.%20KMP//KMP.md)                            |  ![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
-|  31  |                       [트라이](31.%20트라이//트라이.md)                       | ![100%](https://progress-bar.dev/10/?scale=10&title=progress&width=500&color=babaca&suffix=/10) |
+| 번호 |                                     주제                                      |
+| :--: | :---------------------------------------------------------------------------: |
+|  01  | [기초 코드 작성 요령](01.%20기초코드%20작성%20요령/기초코드%20작성%20요령.md) |
+|  02  |                       [문자열](02.%20문자열/문자열.md)                        |
+|  03  |                          [배열](03.%20배열/배열.md)                           |
+|  04  |              [연결 리스트](04.%20연결%20리스트/연결%20리스트.md)              |
+|  05  |                          [스택](05.%20스택/스택.md)                           |
+|  06  |                             [큐](06.%20큐/큐.md)                              |
+|  07  |                             [덱](07.%20덱/덱.md)                              |
+|  08  |              [스택의 활용](08.%20스택의%20활용/스택의%20활용.md)              |
+|  09  |                            [BFS](09.%20BFS/BFS.md)                            |
+|  10  |                                DFS (문제집 X)                                 |
+|  11  |                          [재귀](11.%20재귀//재귀.md)                          |
+|  12  |                    [백트래킹](12.%20백트래킹//백트래킹.md)                    |
+|  13  |                 [시뮬레이션](13.%20시뮬레이션/시뮬레이션.md)                  |
+|  14  |                        [정렬 I](14.%20정렬1//정렬1.md)                        |
+|  15  |                       [정렬 II](15.%20정렬2//정렬2.md)                        |
+|  16  |  [다이나믹 프로그래밍](16.%20다이나믹%20프로그래밍/다이나믹%20프로그래밍.md)  |
+|  17  |                       [그리디](17.%20그리디/그리디.md)                        |
+|  18  |                          [수학](18.%20수학/수학.md)                           |
+|  19  |                    [이분탐색](19.%20이분탐색//이분탐색.md)                    |
+|  20  |                [투 포인터](20.%20투%20포인터//투%20포인터.md)                 |
+|  21  |                          [해시](21.%20해시//해시.md)                          |
+|  22  |       [이진 검색 트리](22.%20이진%20검색%20트리//이진%20검색%20트리.md)       |
+|  23  |              [우선순위 큐](23.%20우선순위%20큐//우선순위%20.md)               |
+|  24  |                       [그래프](24.%20그래프//그래프.md)                       |
+|  25  |                          [트리](25.%20트리//트리.md)                          |
+|  26  |                [위상 정렬](26.%20위상%20정렬//위상%20정렬.md)                 |
+|  27  |       [최소 신장 트리](27.%20최소%20신장%20트리//최소%20신장%20트리.md)       |
+|  28  |    [플로이드 알고리즘](28.%20플로이드%20알고리즘//플로이드%20알고리즘.md)     |
+|  29  | [다익스트라 알고리즘](29.%20다익스트라%20알고리즘//다익스트라%20알고리즘.md)  |
+|  30  |                           [KMP](30.%20KMP//KMP.md)                            |
+|  31  |                       [트라이](31.%20트라이//트라이.md)                       |
 
