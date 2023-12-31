@@ -8,45 +8,26 @@ readline.on('line', function (input) {
   readline.close();
 });
 
-const ERROR_MESSAGE = 'Error!';
-const UNDERSCORE = '_';
-
 function solution(input) {
-  if (isInvalid(input)) return ERROR_MESSAGE;
   if (isCpp(input)) return convertToJava(input);
   if (isJava(input)) return convertToCpp(input);
-  return ERROR_MESSAGE;
+  return 'Error!';
 }
 
 function isCpp(input) {
-  return /^[a-z](_?[a-z]+)*$/.test(input);
+  const CPP = /^[a-z](_?[a-z]+)*$/;
+  return CPP.test(input);
 }
 
 function isJava(input) {
-  return Array.from(input).every(
-    (char) => /^[a-z]$/.test(char) || /^[A-Z]$/.test(char),
-  );
-}
-
-function isInvalid(input) {
-  return input === '' || input[0] === input[0].toUpperCase();
+  const JAVA = /^[a-z]+([A-Z][a-z]*)*$/;
+  return JAVA.test(input);
 }
 
 function convertToCpp(java) {
-  const cpp = Array.from(java).reduce((cpp, char) => {
-    return char === char.toUpperCase()
-      ? cpp + UNDERSCORE + char.toLowerCase()
-      : cpp + char;
-  });
-  return cpp;
+  return java.replaceAll(/[A-Z]/g, (upper) => '_' + upper.toLowerCase());
 }
 
 function convertToJava(cpp) {
-  const java = cpp
-    .split(UNDERSCORE)
-    .reduce(
-      (java, word) => java + word[0].toUpperCase() + word.substring(1),
-      '',
-    );
-  return java[0].toLowerCase() + java.substring(1);
+  return cpp.replaceAll(/_[a-z]/g, ([_, lower]) => lower.toUpperCase());
 }
