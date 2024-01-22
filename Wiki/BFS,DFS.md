@@ -50,7 +50,7 @@ for (let [start, end] of edges) {
 ```javascript
 // 노드 개수: V, 간선 개수: E
 
-// 리스트 크기는 V. 0번째 열은 사용하지 않음
+// 리스트 크기는 V+1. 0번째 열은 사용하지 않음
 const list = Array.from({ length: V + 1 }).map(() => []);
 
 // 간선 수만큼 반복
