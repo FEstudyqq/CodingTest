@@ -1,5 +1,5 @@
 const fs = require('fs');
-const n = Number(fs.readFileSync('../input.txt').toString().trim());
+const n = Number(fs.readFileSync('/dev/stdin').toString().trim());
 
 const memo = Array.from({ length: n + 1 });
 
