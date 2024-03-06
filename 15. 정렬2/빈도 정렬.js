@@ -6,18 +6,17 @@ const numbers = fs
   .split('\n')[1]
   .split(' ');
 
-const memo = {};
+const map = new Map();
 
-numbers.forEach((num, i) => {
-  if (!memo[num]) memo[num] = { minIndex: i, cnt: 1 };
-  else memo[num].cnt += 1;
+numbers.forEach((num) => {
+  const cnt = map.get(num) ?? 0;
+  map.set(num, cnt + 1);
 });
 
-const answer = numbers
-  .sort((a, b) => {
-    if (memo[a].cnt === memo[b].cnt) return memo[a].minIndex - memo[b].minIndex;
-    return memo[b].cnt - memo[a].cnt;
-  })
+const answer = [...map]
+  .sort((a, b) => b[1] - a[1])
+  .map(([num, cnt]) => Array(cnt).fill(num))
+  .flat()
   .join(' ');
 
 console.log(answer);
