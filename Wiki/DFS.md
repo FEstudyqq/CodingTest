@@ -1,6 +1,6 @@
 # DFS
 
-### 재귀를 이용한 DFS
+그래프 부분 동일
 
 ```jsx
 function Graph() {
@@ -32,7 +32,11 @@ Graph.prototype.print = function () {
     console.log(" ");
   }
 };
+```
 
+### 재귀를 이용한 DFS
+
+```jsx
 // dfs() : DFS탐색
 Graph.prototype.dfs = function (startVertex) {
   this._dfsRecursiveVisit(startVertex);
